@@ -18,7 +18,7 @@
               href="?pg=dashboard">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?= isset($_GET['pg']) && $_GET['pg'] == 'cashier' ? ' nav-link-active' : '' ?>"
+            <a class="nav-link <?= isset($_GET['pg']) && $_GET['pg'] == 'cashier' && $_GET['pg'] == 'add-transaction' ? 'nav-link-active' : '' ?>"
               href="?pg=cashier">Cashier</a>
           </li>
           <li class="nav-item">
